@@ -17,11 +17,19 @@
         <java.version>19</java.version>
         <sonar.organization>moinmarcell</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <snakeyaml.version>1.33</snakeyaml.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.33</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
